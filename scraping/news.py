@@ -3,7 +3,7 @@ import requests
 
 
 class NewsScraper:
-    PLUS_URL = "https://www.prnewswire.com"
+    PLUS_URL = "https://24.kg/"
     START_URL = "https://24.kg/ekonomika/"
     LINK_XPATH = '//div[@class="one"]/div/a/@href'
     TITLE_V1_XPATH = '//div[@class="one"]/div/a/strong/text()'
